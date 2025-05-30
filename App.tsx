@@ -3,7 +3,7 @@ import React from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import HomePage from '@/pages/HomePage'; // Updated path
+import HomePage from './pages/HomePage'; // Updated path to relative
 import MarketP2PPage from './pages/MarketP2PPage';
 import InvestorsPage from './pages/InvestorsPage';
 import BorrowersPage from './pages/BorrowersPage';
